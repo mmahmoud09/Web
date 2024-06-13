@@ -1,0 +1,52 @@
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    direction: rtl;
+    text-align: right;
+    font-weight: bold;
+  }
+  .form-container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px -1px 12px 2px #FB663A;
+    background-color:#FB663A;
+  }
+  form input{
+    outline: none;
+  }
+  input[type=text], input[type=email], input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    background-color: #3952a3;
+    color: white;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: black;
+    color: #FB663A;
+    transition-duration: 400ms;
+  }
+  .pic{
+    padding: 20px;
+  }
+  select{
+    padding: 10px;
+    margin-right: 20px;
+  }
+  .personal_image{
+    width: 80%;
+    border: 2px solid white;
+    padding: 10px;
+  }

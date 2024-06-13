@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tools/Styles/provider_form.css">
+    <title>فى الخدمة</title>
+    <link rel="icon" type="image/png" href="Images/Logo (1).png"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+    <div class="form-container">
+        <form action="/submit_form.php" method="post">
+          <label for="name">الاسم</label>
+          <input type="text" id="name" name="fname" placeholder="أدخل اسمك " required>
+      
+          <label for="addr">العنوان</label>
+          <input type="text" id="addr" name="address" placeholder="أدخل العنوان" required>
+      
+          <label for="email">البريد الإلكتروني</label>
+          <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" >
+      
+          <label for="ph">رقم الهاتف</label>
+          <input type="text" id="ph" name="phone" placeholder="أدخل رقم الهاتف" required>
+          
+          <!-- <label for="serv">الخدمة</label>
+          <input type="text" id="serv" name="service" placeholder="أدخل نوع الخدمة - كهربائى مثلا" required> -->
+          <br>
+          <br>
+          <label for="batchSelect">الخدمة:</label>
+          <select id="batchSelect" name="job">
+          </select>
+
+          <br>
+          <br>
+          <div class="personal_image">
+            <label for="pic">صورة البطاقة الشخصية:</label>
+          <input class="pic" type="file" id="pic" required>
+          </div>
+          
+          <br>
+          <input type="submit" value="إرسال">
+        </form>
+    </div>
+
+</body>
+
+<script src="Tools/Js/provider.js"></script>
+
+</html>    
